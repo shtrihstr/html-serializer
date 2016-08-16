@@ -1,0 +1,19 @@
+{
+    "name": "shtrihstr/html-serializer",
+    "description": "Convert HTML to JSON",
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleksandr Strikha",
+            "email": "alex@strikha.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"HtmlSerializer\\": "src/"}
+    }
+}
