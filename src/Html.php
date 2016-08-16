@@ -101,7 +101,7 @@ class Html {
         }, $css);
 
 
-        $arr = explode(';', $css);
+        $arr = array_filter(array_map('trim', explode(';', $css)));
         $result = [];
 
         foreach ($arr as $item) {
